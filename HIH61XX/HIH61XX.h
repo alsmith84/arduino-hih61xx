@@ -41,7 +41,7 @@ class HIH61XX
   bool isRunning() const { return f & RunningFlag; }
   uint8_t flags() const { return f & FlagsMask; }
   
-  bool isRunning() const { return f & RunningFlag; }
+ // bool isRunning() const { return f & RunningFlag; }
   
   //  return humidity / temperature
   float humidity() const { return rawToHumidity(h); }
